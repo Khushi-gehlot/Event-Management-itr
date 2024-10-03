@@ -1,0 +1,41 @@
+.crd{
+	float: left;
+		width: 20%;
+	transition: transform 2s ; 
+	height: auto;
+
+
+
+}
+.blog-img{
+	width: 100%;
+	border-radius: 0px;
+	size: cover;
+	background-color: rgb(247, 229, 210, 0.2);
+	height: 120px;
+}
+
+.div-card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(247,229,210,0.2);
+
+
+}
+
+.crd:hover{
+	background-color: rgb(247, 229,210,1.0);
+}
+
+.blog-menu a{
+	text-decoration: none;
+	color: #ffc9db;
+	font-size: 20px;
+	text-align: left;
+	display: block;
+
+}
+.blog-menu a:hover{
+	color: #eb6592;
+}
