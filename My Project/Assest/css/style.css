@@ -139,18 +139,31 @@ font-weight: 200px;
 	font-size: 10vw;	
 	color: #D67E7A;
 	transition: 0.6s ease;
+	text-align: center;
 
+}
+
+.col-2-row-1{
+	background-image: url('../images/about1.png');
+	background-size: cover;
+}
+
+.col-2-row-3{
+	background-image: url('../images/about2.png');
+	margin-bottom: 10px;
+	background-size: cover;
 }
 
 
 
 .col-1{
 	color: #f8dde0;
-	font-size: 20px;
+	font-size: 33px;
 	background-color: black;
 	transition: 0.6s ease;
 	text-align: center;
 /*	border-radius: 10px;*/
+font-family: "Gabriola";
 }
 
 .about-us-row{
@@ -162,82 +175,12 @@ font-weight: 200px;
 }
 
 .col-2{
-	background-image: url('../images/1.jpg');
+	background-image: url('../images/about3.png');
 	background-size: cover;
 }
 
 /*signup/login css*/
 
-.form-row{
-	justify-content: center;
-
-}
-.form-bg{
-	background-image: url('../images/whit.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 770px;
-
-}
-
-.plus{
-	width: 10%;
-	border-radius: 5px;
-	border-color: lightgray;
-}
-
-.sign-in-col-2{
-	text-align: center;
-	align-content: flex-end;
-	background-image: url('../images/login.png');
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
-
-h2{
-	color: white;
-}
-
-.sign-in-col-1{
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-	background-color: #f8f5f0;
-}
-
-.log-in-col-2{
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	background-color: #f8f5f0;
-}
-
-.log-in-col-1{
-	text-align: center;
-	align-content: flex-end;
-	background-image: url('../images/login.png');
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-	height: 650px;
-
-}
-
-.log-in-logo{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.signup-logo{
-	float: left;
-	width: 25%;
-}
-
-.signup-title{
-	font-size: 32px;
-}
-
-.enter-name{
-	padding-left: 15px;
-}
 
 
 /*BLOG CSS*/
@@ -256,7 +199,7 @@ h2{
 	border-radius: 0px;
 	size: cover;
 	background-color: rgb(247, 229, 210, 0.2);
-	height: 100px;
+	height: 180px;
 }
 
 .div-card{
@@ -370,9 +313,10 @@ footer{
 .services-card:hover{
 	transform: scale(1.1);
 	
-	background-color: #fef0f4;
+	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0 0 0 0;
+	height: 532px;
 	justify-self: center;
 	/*box-shadow: 2px 2px 2px 2px lightgray;
 	background: plum;*/
@@ -383,6 +327,7 @@ footer{
 	font-family: "Hybridea";
 
 }
+
 
 /*Contact Us*/
 .contact-us{
@@ -502,15 +447,21 @@ footer{
 .card-form2{
 	justify-content: space-between;
 	width: 12%;
-	background-color: white;
-	color: snow;
+	background-color: #e6d9cc;
+	
+	border: none ;
+	color: #e6d9cc;
 	font-size: 4px;
+	transition: 1s;
 
 }
 .card-form2:hover{
 	width: 52%;
 	color:black;
 	font-size: 20px;
+	background-color: white;
+	font-family: "lucida handwritting";
+	text-align: center;
 }
 
 .card-form2-img{
@@ -518,6 +469,9 @@ footer{
 	float: left;
 
 	height: 200px;
+	object-fit: cover;
+	
+
 
 
 
@@ -545,6 +499,7 @@ footer{
 	font-size: 20px;
 	border-radius: 10px;
 	background:radial-gradient(white, #c7ab8f  );
+	font-family: "Lucida Calligraphy";
 }
 .no-of-atten-l{
 
@@ -558,6 +513,8 @@ footer{
 }
 .option-form2{
 	border-radius: 20px;
+	font-family: "Monotype corsiva";
+	font-size: 25px;
 }
 
 .row-form2{
@@ -591,3 +548,86 @@ footer{
 
 }
 
+/*signup*/
+.form-row{
+	justify-content: center;
+
+}
+.form-bg{
+	background-image: url('../images/whit.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 770px;
+
+}
+
+
+
+.plus{
+	width: 15%;
+	border-radius: 30px;
+	border-color: lightgray;
+}
+
+.sign-in-col-2{
+	text-align: center;
+	align-content: flex-end;
+	background-image: url('../images/login.png');
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+h2{
+	color: white;
+}
+
+.sign-in-col-1{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #f8f5f0;
+}
+
+.log-in-col-2{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #f8f5f0;
+}
+
+.log-in-col-1{
+	text-align: center;
+	align-content: flex-end;
+	background-image: url('../images/login.png');
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 650px;
+
+}
+
+.log-in-logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.signup-logo{
+	float: left;
+	width: 25%;
+}
+
+.signup-title{
+	font-size: 32px;
+}
+
+.enter-name{
+	padding-left: 15px;
+}
+
+.input-signup{
+	border-radius: 30px;
+}
+
+.final-msg{
+	color: green;
+	font-size: 25px;
+	text-align: center;
+}
